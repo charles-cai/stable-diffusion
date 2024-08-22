@@ -3,10 +3,10 @@ Test Mermaid in Github
 ```mermaid
 graph LR
     Staff --> Manager
-    Manager --> Senior Manager
-    Senior Manager --> Director
-    Director --> Senior Director
-    Senior Director --> VP
+    Manager --> "Senior Manager"
+    "Senior Manager" --> Director
+    Director --> "Senior Director"
+    "Senior Director" --> VP
     VP --> SVP
     SVP --> CXO
     CXO --> CEO
