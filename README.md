@@ -15,7 +15,7 @@ flowchart LR
 
 ```mermaid
 graph LR;
-    Staff --> Manager --> SM {Senior Manager} --> Director --> SD {Senior Director} --> VP --> CXO --> CXO --> CEO;
+    Staff --> Manager --> SM{Senior Manager} --> Director --> SD{Senior Director} --> VP --> CXO --> CXO --> CEO;
 ```
 
 ```mermaid
