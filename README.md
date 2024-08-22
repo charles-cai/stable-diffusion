@@ -9,10 +9,13 @@ graph TD;
 ```
 
 ```mermaid
+flowchart LR
+   A =. reports to .=> B
+```
+
+```mermaid
 graph LR;
-    Staff --> Manager;
-    Manager --> "Senior Manager" as SM;
-    SM --> CEO
+    Staff --> Manager --> {Senior Manager} --> Director --> {Senior Director} --> VP --> CXO --> CXO-->CEO;
 ```
 
 ```mermaid
