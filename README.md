@@ -281,15 +281,18 @@ Thanks for open-sourcing!
 
 
 
+Test Mermaid in Github
+
 ```mermaid
-Graph Reporting_Line;
-Staff --> Manager
-Manager --> Senior Manager
-Senior Manager --> Director
-Director --> Senior Director
-Senior Director --> VP
-VP --> SVP
-SVP --> CXO
-CXO --> CEO
+  Graph Reporting_Line;
+    Staff --> Manager
+    Manager --> Senior Manager
+    Senior Manager --> Director
+    Director --> Senior Director
+    Senior Director --> VP
+    VP --> SVP
+    SVP --> CXO
+    CXO --> CEO
+```
 
 
