@@ -11,7 +11,8 @@ graph TD;
 ```mermaid
 graph LR;
     Staff --> Manager;
-    Manager --> CEO
+    Manager --> Senior Manager;
+    Senior Manager --> CEO
 ```
 
 ```mermaid
