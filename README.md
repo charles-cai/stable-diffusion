@@ -1,7 +1,7 @@
 Test Mermaid in Github
 
 ```mermaid
-  Flowchart LR
+graph LR
     Staff --> Manager
     Manager --> Senior Manager
     Senior Manager --> Director
